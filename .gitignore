@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+env/
+venv/
+.venv/
+pip-wheel-metadata/
+
+# Virtual environments
+.env
+.venv
+ENV/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+logs/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Hailo / GStreamer artifacts
+*.hef
+*.json.backup
+hailo_*.log
+
+# Media / recordings (usually too large for git)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wav
+*.aiff
+
+# Config overrides (keep MIDI_CONFIG in code, but allow local overrides)
+config_local.py
+local_settings.py
